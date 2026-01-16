@@ -1,0 +1,47 @@
+{
+  "name": "stoicism-api-client",
+  "description": "A lightweight JavaScript client for fetching Stoic quotes from the Stoic Quote Public API.",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "stoicism",
+    "stoic",
+    "quotes",
+    "philosophy",
+    "stoic-quotes",
+    "api-client",
+    "public-api",
+    "wisdom",
+    "motivation",
+    "quote-api",
+    "npm-package",
+    "javascript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NPM-Workbench/stoicism-api-client"
+  },
+  "homepage": "https://github.com/NPM-Workbench/stoicism-api-client",
+  "bugs": {
+    "url": "https://github.com/NPM-Workbench/stoicism-api-client/issues"
+  }
+}
