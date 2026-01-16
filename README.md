@@ -14,9 +14,11 @@ npm install stoicism-api-client
 4. Simple API surface: One function, one responsibility. Easy to learn and use.
 5. Type-safe (TypeScript support): Includes TypeScript typings for better developer experience.
 6. Beginner-friendly: Ideal for learning projects, demos, bots, and motivational apps.
-
-### ⚠️ CORS Limitation
-Important: This API cannot be accessed directly from the browser due to CORS restrictions enforced by the source API. This package is intended to be used in server-side environments such as Node.js and other backend frameworks.
+```
+## ⚠️ Important: ##
+This API cannot be accessed directly from the browser due to CORS restrictions enforced by the source API.
+This package is intended to be used in server-side environments such as Node.js and other backend frameworks.
+```
 
 ### 🔤 Example Usage
 1. Get A Random Stoic Quote
