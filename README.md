@@ -1,4 +1,7 @@
 ![stoicism-banner](https://github.com/user-attachments/assets/2345f626-0c64-4140-acde-19d6100e0d6f)
+![npm](https://img.shields.io/npm/v/stoicism-api-client)
+![downloads](https://img.shields.io/npm/dw/stoicism-api-client)
+![license](https://img.shields.io/npm/l/stoicism-api-client)
 # stoicism-api-client
 stoicism-api-client is a lightweight, zero-dependency JavaScript client that makes it easy to fetch Stoic quotes from a public API. Ideal for learning projects, bots, motivational apps, and philosophy enthusiasts.
 
