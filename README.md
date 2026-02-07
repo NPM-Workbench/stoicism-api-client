@@ -55,6 +55,31 @@ run();
 }
 */
 ```
+### 📗 Test Coverage
+
+```
+PASS src/get-stoic-quote/test/index.test.ts
+  getStoicQuote
+    ✓ returns api-ok when response ok
+    ✓ returns expected payload when response ok
+    ✓ returns api-fail when response.ok is false
+    ✓ returns api-fail when fetch throws
+    ✓ targets the stoic quote endpoint
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+```
+
+```
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |
+ index.ts |     100 |      100 |     100 |     100 |
+----------|---------|----------|---------|---------|-------------------
+```
+
 ### 📘 Contributing
 Contributions, suggestions, and improvements are welcome.<br/>
 Feel free to open issues or pull requests.
