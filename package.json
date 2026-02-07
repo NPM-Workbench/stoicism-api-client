@@ -2,7 +2,7 @@
   "name": "stoicism-api-client",
   "description": "A lightweight JavaScript client for fetching Stoic quotes from the Stoic Quote Public API.",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
